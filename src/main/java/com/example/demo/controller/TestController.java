@@ -17,6 +17,7 @@ public class TestController {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 		System.out.println("Call Controller Success !!");
 		return "Hello , "+sdf.format(now);
+		
 	}
 	
 	
