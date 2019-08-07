@@ -12,7 +12,6 @@ public class TestController {
 	
 	@RequestMapping(value = "/index")
 	public String index(){
-		
 		Date now = new Date();
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 		System.out.println("Call Controller Success !!");
